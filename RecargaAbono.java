@@ -51,7 +51,7 @@ public class RecargaAbono {
 		try 
 		{
 			myPicture = ImageIO.read(new File("C:\\Users\\Medac\\Pictures\\Bus.jpg"));
-			JLabel picLabel = new JLabel(new ImageIcon(myPicture));
+			JLabel picLabel = new JLabel(new ImageIcon(RecargaAbono.class.getResource("/InterfazTransporte/Bus.jpg")));
 			picLabel.setSize(577, 388);
 			picLabel.setLocation(0, 0);
 			panel.add(picLabel);
